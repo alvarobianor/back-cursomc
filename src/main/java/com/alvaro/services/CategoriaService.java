@@ -18,7 +18,7 @@ import com.alvaro.services.exceptions.ObjectNotFoundException;
 @Service
 public class CategoriaService {
 
-	// vair instanciar na hora msm que a classe
+	// vai instanciar na hora msm que a classe
 	@Autowired
 	private CategoriaDAO Dao;
 

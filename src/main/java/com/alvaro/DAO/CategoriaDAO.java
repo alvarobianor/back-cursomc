@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.alvaro.domain.Categoria;
 
 
-//MDSSSSS usar essa interface do Jpa é top, desse jeito el já permite usar para um CRUD cmpleto no banco de dados
+//MDSSSSS usar essa interface do Jpa é top, desse jeito ele já permite usar para um CRUD completo no banco de dados
 @Repository
 public interface CategoriaDAO extends JpaRepository<Categoria, Integer> {
 
